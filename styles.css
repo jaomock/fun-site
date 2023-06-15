@@ -1,7 +1,12 @@
 body{
-    background: linear-gradient(70deg, #89CFF0, pink);   
+    background-image: linear-gradient(70deg, #89CFF0, pink);   
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 ul,li{
@@ -39,10 +44,10 @@ ul,li{
 
 .container{
     display: grid;
-    grid-template-columns: 100px 500px 250px 500px;
+    grid-template-columns: 0.5fr 3fr 2fr 5fr;
     grid-template-rows: 200px 200px 100px;
     margin-top: 150px;
-    margin-left: 8%;
+    margin-left: 10%;
 }
 
 .mainContainer{
@@ -54,10 +59,12 @@ ul,li{
 
 #trending,#lead{
     font-size: 1.5em;
+    font-family: Acme;
 }
 
 #description{
     font-size: 1.5em;
+    font-family: Acme;
 }
 
 .icons{
@@ -66,7 +73,11 @@ ul,li{
 
 .icons li{
     display: block;
-    margin: 60px 0;
+    margin: 50px 0;
+}
+
+.pics:hover{
+    transform: translateY(-5px);
 }
 
 #mainText{
@@ -113,3 +124,13 @@ ul,li{
     cursor: pointer;
 }
 
+/*
+@media (max-width 1535px){
+    header{
+        padding: 15px 3%;
+    }
+    .pics{
+        padding: 0 3%;
+    }
+}
+*/
