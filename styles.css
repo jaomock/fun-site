@@ -108,6 +108,7 @@ ul,li{
     color: white;
     border: none;
     font-size: 1.2em;
+    font-family: Acme;
 }
 
 #bTwo{
@@ -118,6 +119,15 @@ ul,li{
     color: white;
     border-width: thin;
     font-size: 1.2em;
+    font-family: Acme;
+}
+
+#bOne:hover,#bTwo:hover{
+    transform: translateY(-5px);
+}
+
+#test{
+    margin-right: 5px;
 }
 
 #bOne:hover,#bTwo:hover{
