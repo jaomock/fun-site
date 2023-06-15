@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(70deg, #89CFF0, pink);   
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.topBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list{
+    display: flex;
+    font-family: Acme;
+    font-size: 1.2em;
+}
+
+.list a{
+    color: white;
+    margin-left: 60px;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#company{
+    color: white;
+    font-size: 3em;
+    font-family: Acme;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 500px 250px 500px;
+    grid-template-rows: 200px 200px 100px;
+    margin-top: 150px;
+    margin-left: 8%;
+}
+
+.mainContainer{
+    grid-column-start: 2;
+    color: white;
+    text-shadow: 1px 1px black;
+
+}
+
+#trending,#lead{
+    font-size: 1.5em;
+}
+
+#description{
+    font-size: 1.5em;
+}
+
+.icons{
+    margin-top: 50%;
+}
+
+.icons li{
+    display: block;
+    margin: 60px 0;
+}
+
+#mainText{
+    font-family: Rancho;
+    font-size: 8em;
+    text-shadow: 1px 4px blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+.imageContainer{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#mainImage{
+    max-height:125%;
+    min-height: 50%;
+
+}
+
+#bOne{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: pink;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+}
+
+#bTwo{
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-width: thin;
+    font-size: 1.2em;
+}
+
+#bOne:hover,#bTwo:hover{
+    cursor: pointer;
+}
+
